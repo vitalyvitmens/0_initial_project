@@ -1,3 +1,9 @@
-import './index.css';
+import './index.css'
+// import { App as AppComponent, createFunc } from './src/modules/app'
+import App from './src/modules/app'
 
-console.log('__work__');
+const app = new App()
+app.run()
+// createFunc()
+
+console.log('__work__')
